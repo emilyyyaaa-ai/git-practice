@@ -1,6 +1,7 @@
 #猜数字小游戏
 import random
 
+print("猜数字小游戏")
 answer = random.randrange(1,101)
 counter = 0
 while True:
