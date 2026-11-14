@@ -14,7 +14,8 @@ long long calculate_weighted_sum(long long n, int weight = 1, long long current_
     return calculate_weighted_sum(n / 10, next_weight, current_sum + digit * weight);
 }
 
-int main() {
+int main()
+ {
     int q;
     cin >> q;
     // 循环处理q次查询，idx从1开始
@@ -27,3 +28,4 @@ int main() {
         cout << idx << " " << weighted_sum << " " << check_code << endl;
     }
     return 0;
+}    
